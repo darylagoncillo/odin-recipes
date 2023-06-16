@@ -1,1 +1,1 @@
-Read me for 1st project
+Basic implementation of 3 recipes as an intro to The Odin Project
