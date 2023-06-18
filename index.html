@@ -3,15 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Odin's Recipes</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Odin's Son Favorites</h1>
-    <ul>
-      <li class="menu"><a href="./recipes/jerkchicken.html">Jerk Chicken</a></li>
-      <li class="menu"><a href="./recipes/fishcurry.html">Southern Indian Fish Curry</a></li>
-      <li class="menu"><a href="./recipes/beefwellington.html">Beef Wellington</a></li>
-    </ul>
+    <nav class="navbar">
+      <h1>Odin's Recipes</h1>
+    </nav>
+    <div class="card" id="beef">
+      <a href="recipes/beefwellington.html">
+        <img src="./images/beefwellington.png" alt="Beef" style="width: 75%" />
+        <div class="item">Beef Wellington</div>
+      </a>
+    </div>
+    <div class="card" id="fish">
+      <a href="recipes/fishcurry.html">
+        <img src="./images/fishcurry.png" alt="Fish" style="width: 75%" />
+        <div class="item">South Indian Fish Curry</div>
+      </a>
+    </div>
+    <div class="card" id="chicken">
+      <a href="recipes/jerkchicken.html">
+        <img src="./images/jerkchicken.jpeg" alt="Chicken" style="width: 75%" />
+        <div class="item">Jerk Chicken</div>
+      </a>
+    </div>
   </body>
 </html>
